@@ -1,0 +1,296 @@
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+#########################################################################################################################################################################################################
+##################################################################################################################################################################################################################################################################################################################################################################################################################
+*/
+
+#div1 {
+    padding-bottom:200px;
+	padding-top:20px;
+	border-left: 60px;
+	border-right: 60px;
+	background-image: url("../images/fond.jpg"); 
+	width: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	 
+}
+#paragraphe3 {
+    margin-bottom:80px;
+}
+#clavier {
+    position:relative;
+
+
+}
+#clavier > p {
+	position:absolute;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:20px;
+    padding-right:50px;
+    width:350px;
+    height:200px;
+    background: rgba(32,25,15,0.7);
+    left:370px;
+    font-weight:bold;
+
+
+}
+#megaphone{
+    position:relative;
+	float:right;
+    left:60px;
+
+}
+#cuiteurophone{
+    position:relative;
+	float:left;
+    right:60px;
+}
+#paragraphe5{
+    margin-bottom:40px;
+}
+#groupimage{
+    position:relative;
+    width:800px;
+    height:600px;
+
+}
+#groupimage >#image3{
+    float:left;
+    margin-top:20px;
+    margin-right:80px;
+}
+#groupimage >#image4{
+    float: right;
+    margin-top:-10px;
+    margin-right:40px;
+    margin-left:50px;
+    margin-bottom:20px;
+}	
+#groupimage >#image5{
+    float:left;
+    margin-top:70px;
+    margin-left:10px;
+    margin-right:70px;
+    margin-bottom:30px;
+}
+#groupimage >#image6{
+    float:right;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:75px;
+}
+#groupimage >#image7{
+    position:absolute;
+    bottom:270px;;
+    left:100px;
+}
+#image8{
+    position:relative;
+    float:right;
+    margin-left:15px;
+    left:60px;
+}
+
+
+
+#lienimage1{
+    float:left;
+    width:250px;
+    text-align:center;
+    display:block;
+    margin-left:75px;
+    margin-right:75px;
+}
+
+
+
+#lienimage2{
+    float:right;
+    width:250px;
+    text-align:center;
+    display:block;
+    margin-left:75px;
+    margin-right:75px;
+}
+#lienimage3{   
+    float:left;
+    width:250px;
+    text-align:center;
+    display:block;
+    margin-top:20px;
+    margin-left:75px;
+    margin-right:75px;
+    margin-bottom:6px;
+}
+#lienimage4{
+    float:right;
+    width:250px;
+    margin-top:20px;
+    text-align:center;
+    display:block;
+    margin-left:75px;
+    margin-right:75px;
+    margin-bottom:10px;
+}
+
+
+#lienimage6{
+    float:right;
+    width:250px;
+    text-align:center;
+    display:block;
+    margin-top:20px;
+    margin-left:75px;
+    margin-right:75px;
+    margin-bottom:15px;
+    
+}
+#lienimage5{
+    margin-top:20px;
+
+    float:right;
+    width:250px;
+    text-align:center;
+    display:block;
+    margin-left:75px;
+    margin-right:75px;
+    margin-bottom:20px;
+}
+#dactylo{
+    float:left;
+    position:relative;
+    right:60px;
+    padding-bottom:40px;
+}
+#dernier{
+    font-weight:bold;
+    color:#ff8c00;
+    text-align:center;
+    width:600px;
+}
+#dernier2{
+    font-weight:bold;
+    color:#ff8c00;
+    text-align:center;
+    width:600px;
+    margin-bottom:40px;
+}
+#moustique{
+    float:right;
+
+}
+ul{
+        float:right;
+        text-align:right;
+        line-height:20px;
+}
+
+
+h1{
+	padding-bottom:4px;
+	border-bottom:3px groove #E8DBB1;
+	font-size: 36px;
+	font-weight:bold;
+	color: #E8DBB1;
+	margin-bottom:26px;
+}
+
+h2{
+	margin-bottom:22px;
+	font-size:26px;
+	font-weight:bold;
+	color: #E8DBB1;
+}
+
+h3{
+	margin-bottom:18px;
+	font-size:20px;
+	font-weight:bold;
+	color: #E8DBB1;
+}
+
+p {
+	color: #E8DBB1;
+	margin-bottom:16px;
+	margin-left:32px;
+	margin-right:32px;
+}
+a { 
+    font-weight:bold;
+	text-decoration:none;
+	color: #3C96F1;
+}
+
+body{
+    width:890px;
+    margin-left:auto;
+    margin-right:auto;
+	background-color: #20190F;
+	font-family: Verdana, Geneva, Sans-Serif;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+

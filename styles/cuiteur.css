@@ -1,0 +1,348 @@
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*######################################################################################################################################################################################################################################################################################################################################################################*/
+
+#div1{
+    padding-top:20px;
+    background-image: url("../images/fond.jpg");
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    height:800px;
+    
+}
+
+
+
+
+#bloc_en_tete{
+    position:relative;
+    background-image: url("../images/entete.jpg");
+    background-repeat: no-repeat;
+    height:270px;
+
+
+
+}
+#bloc_en_tete > h1{
+    margin-top:170px;
+	margin-bottom:-20px;
+	text-align:right;
+	float:right;
+    color:#be7e11;
+    font-size:28px;
+    width:550px;
+    height:70px;
+    background-image: url("../images/trait.png");
+}
+#bouton-deco{
+    width:68px;
+    height:73px;
+    background-image: url("../images/deconnexion.png");
+    display:block;
+    float:right;
+}
+#bouton-deco:hover{
+    background-image: url("../images/deconnexion_over.png");
+}
+#home{
+    
+    width:47px;
+    height:42px;
+    background-image: url("../images/home.png");
+    display:block;
+    position:absolute;
+    left:540px;
+    top:79px;
+}
+#home:hover{
+    background-image: url("../images/home_over.png");
+}
+#cherche{
+    background-image: url("../images/cherche.png");
+    width:45px;
+    height:42px;
+    display:block;
+    position:absolute;
+    left:603px;
+    top:84px;
+}
+#cherche:hover{
+    background-image: url("../images/cherche_over.png");
+}
+#config{
+    background-image: url("../images/config.png");
+    width:44px;
+    height:40px;
+    display:block;
+    position:absolute;
+    left:660px;
+    top:83px;
+}
+#config:hover{
+    background-image: url("../images/config_over.png");
+}
+#saisie{    
+    position:absolute;
+    left:260px;
+    top:130px;
+}
+#form_saisie{
+    position:absolute;
+    top:130px;
+    left:260px;
+    background-image: url("../images/saisie.png");
+    width:528px;
+    height:140px;
+}
+#form_saisie > textarea{
+    resize:none;
+    position:relative;
+    width:470px;
+    height:55px;
+    left:45px;
+    top:27px;
+    font-color:#7a370d;
+    background-color:#f5f6f6;
+    border-color:#b4b3b3;
+
+}
+#trombonne{
+    display:block;
+    position:absolute;
+   background-image: url("../images/trombone.png"); 
+   width:52px;
+   height:44px;
+   left:50px;
+   top:88px;
+   
+}
+#trombonne:hover{
+    background-image: url("../images/trombone_over.png");
+
+}
+#form_saisie > imput{
+    position:absolute;
+    background-image: url("../images/haut_parleur.png");
+    width:52px;
+    height:44px;
+    left:450px;
+    top:88px;
+}
+#form_saisie > imput:hover{
+    background-image: url("../images/haut_parleur_over.png");
+}
+
+
+
+
+
+#Bloc_infos_diverses{
+    font-family:"Comisc Sans MS" cursive sans-serif;
+    font-size:16px;
+    float:left;
+    height:450px;
+    width:250px;
+    background-image: url("../images/micro.jpg");
+    background-repeat:no-repeat;
+    
+}
+#Bloc_infos_diverses>ul>li>a{
+    text-decoration:none;
+    color: #3C96F1;
+}
+#Bloc_infos_diverses>ul>li>a:hover{
+    text-decoration:underline;
+}
+#Bloc_infos_diverses>p{
+     margin-bottom:16px;
+
+}
+#Bloc_infos_diverses>h3{
+    color:#efe7de;
+    font-size:18px;
+}
+#fpiat{
+    position:relative;
+    bottom:20px;
+    left:5px;
+}
+#darkzv>img{
+    position:relative;
+    top:20px;
+    right:5px;
+}
+#darkzv{
+    position:relative;
+    bottom:20px;
+    left:5px;
+}
+#kdick>img{
+    position:relative;
+    top:20px;
+    right:5px;
+}
+#kdick{
+    position:relative;
+    bottom:20px;
+    left:5px;
+}
+#fpiat>img{
+    position:relative;
+    top:20px;
+    right:5px;
+}
+#Bloc_infos_diverses > h1{
+    font-color:#efe7de;
+    font-size:18px;    
+}
+#Bloc_listes_des_messages{
+    float:right;
+    width:550px;
+    height:400px;
+
+}
+#Bloc_listes_des_messages>ul>li{
+    min-height:75px;
+    position:relative;
+    padding-left:30px;
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:14px;
+    background-image: url("../images/fond_blabla.png");
+    color:#E8DBB1;
+    line-height:20px;
+    align-items:center;
+}
+#Bloc_listes_des_messages>ul>li>a{
+    text-decoration:none;
+    color:#3C96F1;
+}
+#Bloc_listes_des_messages>ul>li>a:hover{
+    text-decoration:underline;
+}
+#Bloc_listes_des_messages>ul>li>a>img{
+    float:left;
+    margin-left:-50px;
+    margin-top:10px;
+    margin-right:10px;
+    
+}
+#Bloc_listes_des_messages>ul>li>p{
+    margin-top:-10px;
+    margin-left:10px;
+    font-size:10px;
+    color:#EFE7DE;
+    padding-top:5px;
+    
+}
+#Bloc_listes_des_messages>ul>li>p>a{
+    float:right;
+    margin-right:15px;
+    text-decoration:none;
+    color: #3C96F1;
+    opacity:0.6;
+}
+#Bloc_listes_des_messages>ul>li>p>a:hover{
+    opacity:1;
+    text-decoration:underline;
+}
+#Bloc_listes_des_messages>a>img{
+    float:right;
+    margin-top:-30px;
+}
+#Bloc_listes_des_messages>a{
+    float:right;
+    margin-top:30px;
+    color: #3C96F1;
+    text-decoration:none;
+    font-weight:bold;
+}
+#Bloc_listes_des_messages>a:hover{
+    text-decoration:underline;
+}
+#imgUsers{
+    font-weight:bold;
+}
+#Bloc_pied_de_page{
+    float:left;
+    margin-top:20px;
+    height:65px;
+    background-image: url("../images/pied.png");
+    width:800px;
+}
+#Bloc_pied_de_page>p{
+    text-align:center;
+    
+}
+#Bloc_pied_de_page>p>a{
+    text-decoration:none;
+    margin-left:20px;
+    font-size:12px;
+    color: #3C96F1;
+    opacity:0.6;
+}
+#Bloc_pied_de_page>p>a:hover{
+    opacity:1;
+    text-decoration:underline;
+}
+body{
+    
+    background-color: #20190F;   
+    font-family: Verdana, Geneva, Sans-Serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    height:800px;
+    
+}

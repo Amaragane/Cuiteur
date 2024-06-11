@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*######################################################################################################################################################################################################################################################################################################################################################################*/
+
+body{
+	 background-color: #20190F;
+	font-family: Verdana, Geneva, Sans-Serif;
+    font-size: 16px;
+	
+}
+#microphone{
+	margin-top: -45px;
+}
+form{
+	margin-left: auto;
+    width: 500px;
+    margin-right: auto;
+	margin-bottom:50px;
+}
+form>h3{
+	color:#EFE7DE;
+}
+
+#entete{
+	background-image:url("../images/entete_deconnecte.jpg");
+	background-repeat:no-repeat;
+	height:300px;
+}
+#entete>p{
+	position: relative;
+    width: 500px;
+    left: 250px;
+    top: 200px;
+	color:#EFE7DE;
+}
+label{
+		color:#EFE7DE;
+		float:right;
+}
+table{
+		border-collapse: separate;
+		border-spacing: 10px;
+}
+input{
+		width:220px;
+	
+}
+a{
+		color: #3C96F1;
+		text-decoration:none;
+		
+}
+
+#btnValider{
+	width:142px;
+	height:41px;
+	border:none;
+	float:right;
+	background:none;
+	background-image:url("../images/bouton.png");
+	background-repeat:no-repeat;
+	font-weight: bold;
+
+}
+#btnValider:hover{
+	background-image:url("../images/bouton_over.png");
+
+}
+#entete>h2{
+	background-image:url("../images/trait.png");
+	background-repeat:no-repeat;
+	color:#be7e11;
+	font-size:32px;
+	background-position-x: right;
+    background-position-y: bottom;
+    text-align: right;
+	height: 40px;
+    top: 170px;
+    position: relative;
+    font-weight: bold;
+}
+#formulaire{
+	float: right;
+    width: 595px;
+
+}
+#formulaire>p{
+	color:#EFE7DE;
+	width: 500px;
+    margin-left: 47px;
+}
+#div1{
+    padding-top:20px;
+    background-image: url("../images/fond.jpg");
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom:100px;
+    
+}
+#Bloc_pied_de_page{
+    float:left;
+    margin-top:20px;
+    height:65px;
+    background-image: url("../images/pied.png");
+    width:800px;
+}
+#Bloc_pied_de_page>p{
+    text-align:center;
+    
+}
+#Bloc_pied_de_page>p>a{
+    text-decoration:none;
+    margin-left:20px;
+    font-size:12px;
+    color: #3C96F1;
+    opacity:0.6;
+}
+#Bloc_pied_de_page>p>a:hover{
+    opacity:1;
+    text-decoration:underline;
+}
